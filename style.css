@@ -1,0 +1,145 @@
+/* Universal Selector */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flex-container {
+    display: flex;
+    height: 51.4vw;
+    
+    
+  }
+  /*STYLING THE LEFT SIDE || LOGIN BOX*/
+  .flex-container > div:first-child{
+    background-color: #e7e9eb;
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+    overflow: hidden;
+    width: 40%;
+  }
+  /*LOGIN BOX*/
+  .jumbotron{
+            background-color: #ffffff;
+            height: 325px;
+            text-align: center;
+            align-items: center;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            box-sizing: border-box;
+            margin: 160px 30px 10px;
+            padding: 20px 10px 28px;
+            width: 396px;
+            align-self: center;
+    }
+    /*FORM INPUTS*/
+    .inpt{
+        font-size: 17px;
+        padding: 14px 16px;
+        border-radius: 6px;
+        border: 1px solid #dddfe2;
+        line-height: 16px;
+        padding: 0 8px;
+        vertical-align: middle;
+    }
+    /*FORGOTTEN PASSWORD? LABEL*/
+  .frgtpwd{
+      font-size: 14px;
+      color: #0066ff;
+  }
+  /*CREATE PAGE LINE*/
+  p{
+      margin-left: 80px;
+      font-size: 14px;
+  }
+/*MEDIA QUERY FOR LEFT SIDE || LOGIN BOX*/
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;        
+      }
+      /*STYLING THE LEFT SIDE || LOGIN BOX*/
+      .flex-container > div:first-child{
+        background-color: #e7e9eb;
+        margin: 0px;
+        padding: 20px;
+        font-size: 30px;
+        overflow: hidden;
+        width: 100%;
+      }
+      /*LOGIN BOX*/
+      .jumbotron{
+                background-color: #ffffff;
+                height: 325px;
+                text-align: center;
+                align-items: center;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+                box-sizing: border-box;
+                margin: 1px 1px 1px;
+                padding: 20px 10px 28px;
+                width: 100%;
+                align-self: center;
+        }
+        /*FORM INPUTS*/
+        .inpt{
+            font-size: 14px;
+            padding: 14px 16px;
+            border-radius: 6px;
+            border: 1px solid #dddfe2;
+            line-height: 16px;
+            padding: 0 8px;
+            vertical-align: middle;
+        }
+        /*FORGOTTEN PASSWORD? LABEL*/
+      .frgtpwd{
+          font-size: 12px;
+          color: #0066ff;
+      }
+      /*CREATE PAGE LINE*/
+      p{
+          margin-left: 10px;
+          padding: 15px 15px 15px 15px;
+          font-size: 12px;
+      }
+      .flex-container > div:nth-child(2){
+        background-color: #e7e9eb;
+        margin: 0px;
+        padding: 20px;
+        font-size: 30px;
+        overflow: hidden;
+        width: 100vw;
+      }
+      
+  }
+  
+
+/*STYLING RIGHT SIDE || FACEBOOK LOGO AND CONTENT UNDER*/
+  .flex-container > div:nth-child(2){
+    background-color: #e7e9eb;
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+  }
+  .centerlogo{
+    justify-content: center;
+    align-self: center;
+    height: 15%;
+    margin-top: -25%;
+    margin-left: 20%;
+  }
+  .centertext{
+    justify-content: center;
+    align-self: center;
+    height: 15%;
+    margin-top: -5%;
+    margin-left: -27%;
+    font-size: 26px;
+  }
